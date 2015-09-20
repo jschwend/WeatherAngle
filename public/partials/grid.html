@@ -1,0 +1,10 @@
+    <h2>Temperatures - {{id}}</h2>
+    <div ng-controller="WeatherGridCtrl">
+      <a href="#/chart/{{id}}" class="list">Chart</a>
+      <table>
+        <tr ng-repeat="temp in temps | orderBy:date">
+          <td class="grid">{{temp.date}}</td>
+          <td class="grid">{{temp.temp}}</td>
+        </tr>
+      </table>
+    </div>

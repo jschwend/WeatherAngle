@@ -1,0 +1,6 @@
+    <h2>Line Chart - {{id}}</h2>
+    <div ng-controller="WeatherChartCtrl">
+      <a href="#/grid/{{id}}" class="list">Grid</a>
+      <!-- <canvas chart type="Line" options="myChartOptions" data="myChartData" width="800" height="450"></canvas> -->
+      <highchart id="chart1" config="chartConfig" class="span9" ></highchart>
+    </div>

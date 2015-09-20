@@ -1,0 +1,21 @@
+{
+  "name": "WeatherAngle",
+  "version": "1.0.0-0",
+  "start": "node ./backend.js",
+  "private": true,
+  "dependencies": {
+    "flatiron": "*",
+    "union": "*",
+    "resourceful": "*",
+    "ecstatic": "*",
+    "utile": "*",
+    "errs": "*",
+    "eventemitter2": "*"
+  },
+  "scripts": {
+    "start": "node ./backend.js"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
